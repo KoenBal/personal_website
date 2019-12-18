@@ -208,6 +208,7 @@ pages_list:
   About: 'about'
   # Blog: 'latest-post'
   Timeline: 'timeline'
+  Tools: 'tools'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
