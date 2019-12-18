@@ -135,18 +135,18 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "Sep 2009 - Jun 2012"
-    description: "MSc Mechanical Engineering, MSc Business Economics - Finance"
-  - image: "/img/timeline/spidertocat.png"
-    date: "Jan 2013 - Sep 2017"
-    description: "Freelance Data Visualization Consultant"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "Mar 2018 - Nov 2019"
-    description: "Built a proprietary cross-exchange market making trading engine"
   - image: "/img/timeline/baracktocat.jpg"
     date: "Sept 2019 - Today"
     description: "Freelance Data Engineer"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "Mar 2018 - Nov 2019"
+    description: "Built a proprietary cross-exchange market making trading engine"
+  - image: "/img/timeline/spidertocat.png"
+    date: "Jan 2013 - Sep 2017"
+    description: "Freelance Data Visualization Consultant"
+  - image: "/img/timeline/spidertocat.png"
+    date: "Sep 2009 - Jun 2012"
+    description: "MSc Mechanical Engineering, MSc Business Economics - Finance"
 
 # First image of the Timeline
 
