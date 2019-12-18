@@ -204,10 +204,9 @@ keybase-in-footer: True
 # NB! Tread carefully if you want to change the variables below this point!
 
 # Sections shown in the index page
-
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  # Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
