@@ -135,18 +135,18 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/data_engineer_3.jpg"
     date: "Sept 2019 - Today"
     description: "Freelance Data Engineer"
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/price_charts_3.jpg"
     date: "Mar 2018 - Nov 2019"
-    description: "Built a proprietary cross-exchange market making trading engine"
-  - image: "/img/timeline/baracktocat.jpg"
+    description: "Built a proprietary cross-exchange crypto market making trading engine"
+  - image: "/img/timeline/dashboard_7.jpg"
     date: "Jan 2013 - Sep 2017"
     description: "Freelance Data Visualization Consultant"
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/study_5.jpg"
     date: "Sep 2009 - Jun 2012"
-    description: "MSc Mechanical Engineering, MSc Business Economics - Finance"
+    description: "University of Leuven MSc Mechanical Engineering, MSc Business Economics - Finance"
 
 # First image of the Timeline
 
@@ -208,7 +208,7 @@ pages_list:
   About: 'about'
   # Blog: 'latest-post'
   Timeline: 'timeline'
-  Skills: 'skills'
+  Expertise: 'expertise'
   Contact: 'contact'
 
 # Exclusion list from the generated _site

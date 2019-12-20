@@ -18,3 +18,4 @@ Rakefile
 .jekyll-metadata
 .jekyll-cache*
 /.idea/
+_archive/*
