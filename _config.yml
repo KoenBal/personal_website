@@ -1,3 +1,4 @@
+# Fork of https://github.com/le4ker/personal-jekyll-theme/network/members
 
 # Site settings
 
@@ -39,7 +40,8 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: ""
+# "/img/black-lab-glass.ico"
 
 background-img: "../img/polygons-bluered-intro-bg.png"
 
@@ -48,19 +50,51 @@ background-img: "../img/polygons-bluered-intro-bg.png"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
+shuffle: False # Shuffle the lines.
+loop: False
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-start-delay: 200
-delete-delay: 5000
+delete-speed: -20
+start-delay: 500
+delete-delay: 2000
 lines: # You can add HTML Tags in the Text
-  - text: “Live for what’s worth dying for, and leverage technology to create the world you wish to see.”
-  - text: “Experiments are necessary for the experiences that create growth and new opportunities.”
-  - text: “Don’t search for what you’re passionate about, serve others to make yourself passionate.”
-  - text: “Happiness isn’t something that’s achieved, it’s a skill that’s cultivated and practiced daily. It’s mastery comes from serving others.”
-  - text: “My wealth is not measured in how much time I have to do what I want, rather, how much meaning I’m able to derive from the time I have.”
+# Me
+  - text: "Welcome to the best Koen Bal site on the internet. Feel free to have a look around and most and for all. Have fun learning!"
+
+# Protips
+  - text: "Protip:^500 Never... ^500<br />Ever... ^500<br /> take protips from a guy on the internet."
+
+# Hope
+  # - text: "I would like to live forever,^500,<br />or at least as long as possible."
+
+# Fun Facts
+  - text: "I loove pancakes."
+
+# Bad Jokes
+  - text: "Keep staring at the screen.^500<br />These are funny.^500<br />At least my gf told me they were."
+  - text: "Okay,^500 last one.^500<br />Promise."
+  - text: "These things load in a random order.^500<br />But once you see the same one twice it means they're repeating.^500<br />You can stop after that."
+  - text: "I wrote a Haiku.^500<br />Okay, maybe I did^500n't.^500<br /> Wait,^1000 I think I did."
+
+# Pop Culture
+  - text: "Winter is coming."
+
+# One Time
+  # - text: "One time, on a road trip, the bottom of a bag of food fell out and the food got everywhere in the car.^500<br />My wife and I had our dog eat it.^500<br />Now that's what I call a win-win situation.^500<br />Good dog, Buddy."
+
+# Food
+  - text: "Doing the Hot Wing Challenge is not recommended."
+
+# Quotes  
+  - text: "“Live for what’s worth dying for, and leverage technology to create the world you wish to see.”"
+  - text: "“Experiments are necessary for the experiences that create growth and new opportunities.”"
+  - text: "“Don’t search for what you’re passionate about, serve others to make yourself passionate.”"
+  - text: "“Happiness isn’t something that’s achieved, it’s a skill that’s cultivated and practiced daily. It’s mastery comes from serving others.”"
+  - text: "“My wealth is not measured in how much time I have to do what I want, rather, how much meaning I’m able to derive from the time I have.”"
   # more: https://medium.com/swlh/21-of-the-worlds-most-powerful-quotes-updated-for-today-and-tomorrow-6b7634358c2
+  
+
+  # http://www.brandongoldman.com/
 
 me-img: "/img/Looking up Colors - narrow circle - size medium.png"
 
@@ -150,7 +184,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/Looking up Colors - narrow circle - size medium.png"
 
 ###########
 # Contact #
@@ -209,6 +243,7 @@ pages_list:
   # Blog: 'latest-post'
   Timeline: 'timeline'
   Expertise: 'expertise'
+  More: 'more'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
