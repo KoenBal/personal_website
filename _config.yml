@@ -4,7 +4,8 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://koenbal.github.io"
+# url: "https://koenbal.github.io"  # when using github pages without a custom domain
+url: "https://koenbal.com"          # when using github pages with a custom domain
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -13,8 +14,9 @@ url: "https://koenbal.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal_website
-
+# baseurl:personal_website  # when using github pages without a custom domain
+baseurl:                    # when using github pages with a custom domain
+  
 # Google tracking id
 
 google-tracking-id: ""
