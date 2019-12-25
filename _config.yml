@@ -45,7 +45,7 @@ favicon: "/img/favicon.ico"
 black-favicon: ""
 # "/img/black-lab-glass.ico"
 
-background-img: "../img/polygons-bluered-intro-bg.png"
+background-img: "../img/cubes-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -61,10 +61,10 @@ start-delay: 500
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
 # Me
-  - text: "Welcome to the best Koen Bal site on the internet. Feel free to have a look around and most and for all. Have fun learning!"
+  - text: "Welcome to the best Koen Bal site on the internet.^500 Feel free to have a look around."
 
 # Protips
-  - text: "Protip:^500 Never... ^500<br />Ever... ^500<br /> take protips from a guy on the internet."
+  # - text: "Protip:^500 Never... ^500<br />Ever... ^500<br /> take protips from a guy on the internet."
 
 # Hope
   # - text: "I would like to live forever,^500,<br />or at least as long as possible."
@@ -208,14 +208,22 @@ author_blurb_image: "/img/Looking up Colors - narrow circle - size 100x100.png"
 ##################
 # Social Buttons #
 ##################
-
+# The title selects the desired icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
 social:
-  # - title: "facebook"
-  #   url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/balkoen"
+
   - title: "github"
     url: "https://github.com/koenbal/"
+  - title: "linkedin"
+    url: "https://be.linkedin.com/in/koenbal"
+  - title: "keybase"
+    url: "https://keybase.io/koenbal" 
+  - title: "twitter"
+    url: "https://twitter.com/balkoen"
+  - title: "medium"
+    url: "https://medium.com/@koenbal"
+  - title: "goodreads"
+    url: "https://www.goodreads.com/koenbal" 
+    
   # - title: "bitcoin"
   #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   # - title: "rss"
@@ -227,13 +235,6 @@ social:
 
 err-404-img: "/img/labtocat.png"
 
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: koenbal
-keybase-in-social: True
-keybase-in-footer: True
 
 ################################################################################
 
