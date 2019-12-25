@@ -33,7 +33,7 @@ force-https: True
 
 lang: "en"
 author: "Koen Bal"
-title: "{ Koen Bal }"
+title: "Koen Bal"
 description: "Website of Koen Bal. Opinions expressed are mine."
 keywords: "bal, Koen, personal, website"
 favicon: "/img/favicon.ico"
@@ -61,7 +61,7 @@ start-delay: 500
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
 # Me
-  - text: "Welcome to the best Koen Bal site on the internet.^500 Feel free to have a look around."
+  - text: "Welcome to the best Koen Bal site on the internet.^500<br />Feel free to have a look around."
 
 # Protips
   # - text: "Protip:^500 Never... ^500<br />Ever... ^500<br /> take protips from a guy on the internet."
