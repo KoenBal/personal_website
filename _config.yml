@@ -53,33 +53,53 @@ background-img: "../img/cubes-bg.jpg"
 
 dynamic-typing: True
 shuffle: False # Shuffle the lines.
-loop: False
+loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-delete-speed: -20
+delete-speed: -30
 start-delay: 500
-delete-delay: 2000
+delete-delay: 2500
 lines: # You can add HTML Tags in the Text
 # Me
-  - text: "Welcome to the best Koen Bal site on the internet.^500<br />Feel free to have a look around."
+  - text: "Welcome to the best Koen Bal site on the internet.^500<br/> Feel free to have a look around."
+# Quotes
+  - text: "Everybody is a genius.^500<br/> But if you judge a fish by its ability to climb a tree,^500<br/> it will live its whole life believing that it is stupid.^500<br/> — Albert Einstein"
+  - text: "Live for what’s worth dying for,^500<br/> and leverage technology to create the world you wish to see.^500<br/> — Gandhi modernized"
+  - text: "A life spent making mistakes is not only more honorable,^500<br/> but more useful than a life spent doing nothing.^500<br/> — George Bernhard Shaw"
+  - text: "He who fears he will suffer,^500<br/> already suffers because he fears.^500<br/> — Michel De Montaigne"
+  - text: "In seeking happiness for others,^500<br/> you will find it in yourself.^500<br/> — Unknown"
+  - text: "If you don’t like something, change it.^500<br/> If you can’t change it, change the way you think about it.^500<br/> — Mary Engelbreit"
+  - text: "Life is never made unbearable by circumstances,^500<br/> but only by lack of meaning and purpose.^500<br/> — Viktor Frankl"
+  - text: "If you want happiness for an hour — take a nap.^500<br/> If you want happiness for a day — go fishing.^500<br/> If you want happiness for a year — inherit a fortune.^500<br/> If you want happiness for a life time — help someone else.^500<br/> — Chinese proverb"
+  - text: "My wealth is not measured in how much time I have to do what I want,^500<br/> rather, how much meaning I’m able to derive from the time I have.^500<br/> — Henry van Dyke modernized"
+  - text: "When one door of happiness closes, another opens,^500<br/> but often we look so long at the closed door that we do not see the one that has been opened for us.^500<br/> — Helen Keller"
+  - text: "Most people do not listen with the intent to understand;^500<br/> they listen with the intent to reply.^500<br/> — Stephen Covey"
+  - text: "Challenges are what make life interesting^500<br/> and overcoming them is what makes life meaningful.^500<br/> — Joshua J. Marine"
+  - text: "A mind that is stretched by a new experience can never go back to its old dimensions.^500<br/> — Oliver Wendell Holmes"
+  - text: "The only way that we can live is if we grow.^500<br/> The only way we can grow is if we change.^500<br/> The only way we can change is if we learn.^500<br/> The only way we can learn is if we are exposed.^500<br/> And the only way that we are exposed is if we throw ourselves into the open.^500<br/> — C. Joybell"
+  - text: "I would rather die a meaningful death than to live a meaningless life.^500<br/> — Corazon Aquino"  
+  - text: "Happiness isn’t something that’s achieved,^500<br/> it’s a skill that’s cultivated and practiced daily.^500<br/> It’s mastery comes from serving others.^500<br/> — Chinese proverb modernized"
 
+  # more: https://medium.com/swlh/21-of-the-worlds-most-powerful-quotes-updated-for-today-and-tomorrow-6b7634358c2
+  
 # Protips
   # - text: "Protip:^500 Never... ^500<br />Ever... ^500<br /> take protips from a guy on the internet."
 
 # Hope
   # - text: "I would like to live forever,^500,<br />or at least as long as possible."
 
-# Fun Facts
-  - text: "I loove pancakes."
-
 # Bad Jokes
+  - text: "Buckle up, bad jokes coming..."
   - text: "Keep staring at the screen.^500<br />These are funny.^500<br />At least my gf told me they were."
+  - text: "I wrote a Haiku.^500<br />Okay, maybe I did^500n't.^500<br /> Wait,^1000 I think I did."
   - text: "Okay,^500 last one.^500<br />Promise."
   - text: "These things load in a random order.^500<br />But once you see the same one twice it means they're repeating.^500<br />You can stop after that."
-  - text: "I wrote a Haiku.^500<br />Okay, maybe I did^500n't.^500<br /> Wait,^1000 I think I did."
 
 # Pop Culture
   - text: "Winter is coming."
+
+# Fun Facts
+  - text: "I loove pancakes."
 
 # One Time
   # - text: "One time, on a road trip, the bottom of a bag of food fell out and the food got everywhere in the car.^500<br />My wife and I had our dog eat it.^500<br />Now that's what I call a win-win situation.^500<br />Good dog, Buddy."
@@ -87,16 +107,7 @@ lines: # You can add HTML Tags in the Text
 # Food
   - text: "Doing the Hot Wing Challenge is not recommended."
 
-# Quotes  
-  - text: "“Live for what’s worth dying for, and leverage technology to create the world you wish to see.”"
-  - text: "“Experiments are necessary for the experiences that create growth and new opportunities.”"
-  - text: "“Don’t search for what you’re passionate about, serve others to make yourself passionate.”"
-  - text: "“Happiness isn’t something that’s achieved, it’s a skill that’s cultivated and practiced daily. It’s mastery comes from serving others.”"
-  - text: "“My wealth is not measured in how much time I have to do what I want, rather, how much meaning I’m able to derive from the time I have.”"
-  # more: https://medium.com/swlh/21-of-the-worlds-most-powerful-quotes-updated-for-today-and-tomorrow-6b7634358c2
-  
-
-  # http://www.brandongoldman.com/
+# http://www.brandongoldman.com/
 
 me-img: "/img/Looking up Colors - narrow circle - size medium.png"
 
@@ -182,7 +193,7 @@ events:
     description: "Freelance Data Visualization Consultant"
   - image: "/img/timeline/study_5.jpg"
     date: "Sep 2009 - Jun 2012"
-    description: "University of Leuven MSc Mechanical Engineering, MSc Business Economics - Finance"
+    description: "University of Leuven MSc Mechanical Engineering,<br>MSc Business Economics - Finance"
 
 # First image of the Timeline
 
