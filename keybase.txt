@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/koenbal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://koenbal.com
+  * I am koenbal (https://keybase.io/koenbal) on keybase.
+  * I have a public key ASB2RqIyzyvRmEeW_EFBVbD3YZeYDkIsV0hlfJbTc1Blbgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207646a232cf2bd1984796fc414155b0f76197980e422c5748657c96d37350656e0a",
+      "host": "keybase.io",
+      "kid": "01207646a232cf2bd1984796fc414155b0f76197980e422c5748657c96d37350656e0a",
+      "uid": "13a7fd8f028c3a71acbecd8ba9c4c319",
+      "username": "koenbal"
+    },
+    "merkle_root": {
+      "ctime": 1578152905,
+      "hash": "c2c81c886c30191137e835df23d6a7d1f10029f4bfbfc18ee7e1b6ef69adf1b91b766cb374a4a383590c3de0fd531b413384e6e530a076521217777fb913af82",
+      "hash_meta": "356621261c4c7de240ad858366ccfe1c916f531b546946e9219438b6cde44d1d",
+      "seqno": 14082127
+    },
+    "service": {
+      "entropy": "J2IZ3jkSXd+ywPnpMTK+LZ51",
+      "hostname": "koenbal.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1578152916,
+  "expire_in": 504576000,
+  "prev": "d4eef95222454544e46ba912c0f9ab459fad02121dbb625a88469128cb568d6a",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdkaiMs8r0ZhHlvxBQVWw92GXmA5CLFdIZXyW03NQZW4Kp3BheWxvYWTESpcCD8Qg1O75UiJFRUTka6kSwPmrRZ+tAhIdu2JaiEaRKMtWjWrEIJmWsCFwGb19lTP6Indn650SqEyHV3dGNWSN9MW//1iuAgHCo3NpZ8RAVW/fGL8tbz+eBsnPBmCazG+RCfHjEACtbnNSRm6UGdO5hEVxZjwnXpizYmUXrhHvaMrI0l5r3Bft7XQpDg8rBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAJBE7FnPJv5ozRCphkxMmnegkXM3ByyOOYj9RreVAfHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/koenbal
+
+==================================================================
