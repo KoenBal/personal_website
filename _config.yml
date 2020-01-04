@@ -35,7 +35,7 @@ lang: "en"
 author: "Koen Bal"
 title: "Koen Bal"
 description: "Website of Koen Bal. Opinions expressed are mine."
-keywords: "bal, Koen, personal, website"
+keywords: "Bal, Koen, personal, website"
 favicon: "/img/favicon.ico"
 
 ################
@@ -194,10 +194,13 @@ events:
   - image: "/img/timeline/study_5.jpg"
     date: "Sep 2009 - Jun 2012"
     description: "University of Leuven MSc Mechanical Engineering,<br>MSc Business Economics - Finance"
+  - image: "/img/timeline/met_bal_3.jpg"
+    date: "May 1988"
+    description: "Born"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/met_bal_3.jpg"
+timeline-img: "/img/Looking up Colors - narrow circle - size medium.png"
 
 ###########
 # Contact #
@@ -222,10 +225,10 @@ author_blurb_image: "/img/Looking up Colors - narrow circle - size 100x100.png"
 # The title selects the desired icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
 social:
 
-  - title: "github"
-    url: "https://github.com/koenbal/"
   - title: "linkedin"
     url: "https://be.linkedin.com/in/koenbal"
+  - title: "github"
+    url: "https://github.com/koenbal/"
   - title: "keybase"
     url: "https://keybase.io/koenbal" 
   - title: "twitter"
